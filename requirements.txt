@@ -1,0 +1,40 @@
+# Path of Building Neural Network Optimizer - Requirements
+
+# Core ML libraries
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Data processing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# Optional: Path of Building API
+# Note: May need to be installed from specific source
+# PathOfBuildingAPI
+
+# Data serialization
+json5>=0.9.0
+
+# Scientific computing
+scipy>=1.11.0
+
+# Visualization (for training plots)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Jupyter notebooks (for experimentation)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Type hints
+mypy>=1.5.0

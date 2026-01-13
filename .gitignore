@@ -40,11 +40,28 @@ checkpoints/
 outputs/
 results/
 
-# Data (scraped data goes in separate repo)
+# Data (large data files)
 data/
+training_data/
+imported_builds/
+optimized_builds/
+
+# Keep essential config JSONs but ignore large data files
 *.csv
-*.json
+pob_data/gems/*.json
+pob_data/items/*.json
+pob_data/poe_ninja/*.json
+pob_data/poedb/*.json
+
+# Generated exports and tests (keep structure files)
 *.xml
+!docs/**/*.xml
+test_graph_build.json
+
+# Keep small essential data files
+!pob_data/tree_data/edge_index.json
+!pob_data/tree_data/node_mapping.json
+!pob_data/processed/*.json
 
 # OS
 .DS_Store
