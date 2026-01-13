@@ -1,5 +1,24 @@
 # Neural Network Build Optimizer - Complete Implementation Guide
 
+## 🎯 NEW: Skill-Aware Passive Tree Optimization
+
+The neural network now properly selects passive tree nodes based on **skill scaling vectors** from Path of Building calculations!
+
+**What this means:**
+- ✅ Spell skills get spell damage, cast speed, spell crit
+- ✅ Attack skills get attack damage, attack speed, weapon nodes
+- ✅ DoT skills get DoT multi, duration (no crit/speed waste)
+- ✅ Different skills → different trees (no more generic patterns)
+
+**See:** [docs/SKILL_AWARE_OPTIMIZATION.md](docs/SKILL_AWARE_OPTIMIZATION.md) for complete documentation.
+
+**Quick test:**
+```bash
+python test_skill_aware_tree.py
+```
+
+---
+
 ## Overview
 
 This folder contains the complete implementation of a neural network-based build optimizer for Path of Building. The system uses machine learning to optimize passive tree allocation, gear selection, gem setup, and aura configuration.

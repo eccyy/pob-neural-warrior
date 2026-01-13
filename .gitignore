@@ -40,6 +40,12 @@ checkpoints/
 outputs/
 results/
 
+# Visualization outputs
+visualizations/output/
+*.png
+*.html
+!docs/**/*.png
+
 # Data (large data files)
 data/
 training_data/

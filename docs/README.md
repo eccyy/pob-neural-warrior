@@ -25,6 +25,28 @@ Complete guide for training the model and generating PoB builds.
 
 ---
 
+### 🎯 [SKILL_AWARE_OPTIMIZATION.md](SKILL_AWARE_OPTIMIZATION.md)
+**NEW!** Skill-specific passive tree optimization using scaling vector analysis.
+
+**Covers:**
+- Skill scaling analyzer (damage types, speed, crit)
+- Node relevance calculation
+- Skill-aware tree builder (GNN + skill filtering)
+- Node stats extraction from PoB
+- Testing and validation
+- Integration with training
+- Support gem awareness
+
+**Key features:**
+- Different skills → different trees (spell vs attack vs DoT)
+- Prioritizes relevant nodes (no wasted points)
+- Combines learned patterns with skill requirements
+- Supports 6+ skills out of the box
+
+**Use this when:** You want builds that actually scale the selected skill properly.
+
+---
+
 ### 🧠 [VARIABLE_ARCHITECTURE.md](VARIABLE_ARCHITECTURE.md)
 Deep dive into the 7 categories of variables that drive the neural network workflow.
 
